@@ -1,16 +1,98 @@
-# React + Vite
+Ordo Agenda App 📱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um Web App (PWA) de organização pessoal tudo-em-um, focado em produtividade, equilíbrio de vida e alta performance. Desenvolvido para parecer e comportar-se como uma aplicação nativa no iPhone e Android.
 
-Currently, two official plugins are available:
+✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Ordo integra várias áreas da vida numa única interface moderna e fluida:
 
-## React Compiler
+📊 Dashboard: Visão geral do dia, estatísticas e acesso rápido.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📅 Agenda: Calendário completo com visualização mensal e tarefas diárias.
 
-## Expanding the ESLint configuration
+💰 Finanças: Controlo de entradas e saídas com saldo em tempo real.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🙏 Espiritual: Devocionais diários, sequência de leitura e pedidos de oração.
+
+🏋️ Academia: Treinos periodizados, cronómetro de descanso e "Coach IA" simulado.
+
+🥗 Alimentação: Registo de refeições, contagem de calorias e controlo de água.
+
+📚 Estudos: Cronómetro de foco (Pomodoro style) e gestão de cursos.
+
+👨‍👩‍👧‍👦 Família: Gestão de membros e eventos familiares.
+
+😊 Humor & Energia: Check-in diário de bem-estar e diário pessoal.
+
+🚀 Tecnologias Utilizadas
+
+React: Biblioteca principal para a interface.
+
+Vite: Ferramenta de build rápida e leve.
+
+Tailwind CSS: Framework de estilização utilitária.
+
+Lucide React: Biblioteca de ícones moderna e leve.
+
+🛠️ Como Rodar o Projeto Localmente
+
+Siga estes passos para ter o projeto a funcionar no seu computador:
+
+Pré-requisitos
+
+Node.js instalado.
+
+Passo a Passo
+
+Clone o repositório (ou baixe os arquivos):
+
+git clone [https://github.com/SEU_USUARIO/ordo-app.git](https://github.com/SEU_USUARIO/ordo-app.git)
+cd ordo-app
+
+
+Instale as dependências:
+
+npm install
+
+
+Nota: Certifique-se de que o lucide-react e o tailwindcss foram instalados corretamente.
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+
+Acesse:
+Abra o seu navegador e vá para http://localhost:5173.
+
+📱 Como Usar no iPhone (PWA)
+
+Este projeto foi otimizado para ser adicionado à tela de início do iOS:
+
+Acesse o link do projeto hospedado (ex: via Vercel) no Safari.
+
+Toque no botão Compartilhar (ícone do quadrado com seta).
+
+Selecione "Adicionar à Tela de Início".
+
+O Ordo aparecerá como um aplicativo nativo, sem barras de navegação.
+
+📂 Estrutura do Projeto
+
+ordo-app/
+├── public/
+│   └── manifest.json    # Configuração para instalar como App
+├── src/
+│   ├── App.jsx          # Código principal da aplicação (Single File)
+│   ├── index.css        # Configurações do Tailwind
+│   └── main.jsx         # Ponto de entrada do React
+├── index.html           # HTML base com meta tags para mobile
+├── tailwind.config.js   # Configuração do Tailwind
+└── package.json         # Dependências do projeto
+
+
+🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+Feito com 💚 para organizar a vida.
