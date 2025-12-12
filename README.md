@@ -93,6 +93,14 @@ ordo-app/
 
 🤝 Contribuição
 
+subir app local
+
+<img width="1364" height="768" alt="image" src="https://github.com/user-attachments/assets/ad440f88-5287-488b-b7e9-741657f70835" />
+
+<img width="1346" height="757" alt="image" src="https://github.com/user-attachments/assets/9a598cac-a981-41ef-8940-d85cb18c8b37" />
+
+
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 Feito com 💚 para organizar a vida.
